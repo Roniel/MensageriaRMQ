@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MensageriaRMQ.Console", "MensageriaRMQ\MensageriaRMQ.Console.csproj", "{848E5C79-F101-40D2-84E9-47BED165FC52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- RabbitMQ.Client", "1- RabbitMQ.Client", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - EasyNetQ", "2 - EasyNetQ", "{E5C79881-650A-4621-BCFD-36243919406C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQ.Console", "EasyNetQ.Console\EasyNetQ.Console.csproj", "{3FFEE551-8B4F-4101-81EA-6CDAE269A2F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{848E5C79-F101-40D2-84E9-47BED165FC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848E5C79-F101-40D2-84E9-47BED165FC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848E5C79-F101-40D2-84E9-47BED165FC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848E5C79-F101-40D2-84E9-47BED165FC52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFEE551-8B4F-4101-81EA-6CDAE269A2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFEE551-8B4F-4101-81EA-6CDAE269A2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFEE551-8B4F-4101-81EA-6CDAE269A2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFEE551-8B4F-4101-81EA-6CDAE269A2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{848E5C79-F101-40D2-84E9-47BED165FC52} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3FFEE551-8B4F-4101-81EA-6CDAE269A2F9} = {E5C79881-650A-4621-BCFD-36243919406C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5894578A-B7B9-48C8-A079-8FF06DB71AA1}
+	EndGlobalSection
+EndGlobal
